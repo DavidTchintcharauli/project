@@ -1,0 +1,42 @@
+
+.post_container{
+    border: 2px solid #ccc;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.post_container_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_name {
+   
+    border-radius: 8px 0px 0px 0px;
+}
+
+.post_profile{
+    display: flex;
+}
+
+.post_photo {
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+}
+
+.post_price{
+    
+    border-radius: 0px 8px 0px 0px;
+}
+  
+.post_text {
+    
+    border-radius: 0px 0px 8px 8px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+}

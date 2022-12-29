@@ -1,0 +1,30 @@
+*{
+    font-size: 'Noto Sans Georgian', sans-serif;
+    box-sizing: border-box;
+}
+
+.news-feed-container{
+    width: 496px;
+    height: 900px;
+    outline: 2px solid rgb(0, 0, 0);
+    background-color: #FFDC14;
+    border-radius: 50px;
+    box-shadow: -10px 10px 10px rgba(41, 44, 44, 0.158);
+}
+
+.home-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 100px;
+    box-sizing: border-box;
+}
+
+.news {
+    width: 450px;
+    margin: auto;
+    height: -1px;
+    outline: 4px solid #86E2FF;
+    border-radius: 100px;
+    padding: 2px;
+    background: #86E2FF;
+}

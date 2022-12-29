@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="stylesheet" href="./styles/home_post.css">
+    <link rel="stylesheet" href="./styles/body_style.css">
+    <link rel="stylesheet" href="./styles/chat.css">
+    <link rel="stylesheet" href="./styles/chat_app.css">
+
+    <script src="./js/app.js" defer></script>
+</head>
+<header class="d-flex">
+    <div class="container d-flex">
+        <a href="./index.php">
+            <img class="logo" src="./assets/img/logo.svg" alt="">
+        </a>
+    <nav>
+        <div class="d-flex">
+            <a href="./browse.php" class="">
+                <img src="./assets/icons/browse.svg" width="45px" alt="Browse">
+                <h5>Browse</h5>
+            </a>
+            <a href="./Request-Post.php" class="">
+                <img src="./assets/icons/post icon.svg" width="45px" height="45px" alt="Request-Post">
+                <h5>Request Post</h5>
+            </a>
+        </div>
+        <div class="d-flex">
+            <a href="./users.php" class="">
+                <img src="./assets/icons/messages icon.svg" width="45px" height="45px" alt="Messages">
+                <h5>Messages</h5> 
+            <a href="./managment.php" class="">
+                <img src="./assets/icons/managment icons.svg" width="45px" height="45px" alt="Management">
+                <h5>Management</h5>
+            </a><a href="./chat_app.php" class="">
+                <img src="./assets/icons/notification icon.svg" width="45px" height="45px" alt="notification">
+                <h5>Notification</h5>
+            </a>
+            <div class="dropdown">
+                <img src="./assets/icons/profile-icon.svg" width="45px" height="45px" alt="Jobs">
+                <!-- <h5 class="dropbtn"><?php echo $_SESSION["userName"]; ?></h5> -->
+                <h5 class="dropbtn">profile</h5>
+                <div class="dropdown-content">
+                <a href="./profile.php">View profile</a>
+                <a href="#">Membership</a>
+                <a href="#">Settings</a>
+                <a href="#">Balance</a>
+                <a href="#">Add funds</a>
+                <a href="#">Withdraw funds</a>
+                <a href="#">Transaction history</a>
+                <a href="#">Financial dashboard</a>
+                <a href="#">Support</a>
+                <a href="#">Invite friend</a>
+                <a href="./index.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    </div>
+</header>

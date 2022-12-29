@@ -1,0 +1,23 @@
+.main_container_app{
+    height: 700px;
+    width: 400px;
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 35px;
+    padding-top: 55px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.chat_header_app{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat_search_app{
+    display: flex;
+    justify-content: space-between;
+}
